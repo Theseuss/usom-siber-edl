@@ -1,8 +1,9 @@
 name: Update EDL
 
-'on':
+on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/33 * * * *"
+      timezone: "Europe/Istanbul"
   workflow_dispatch:
 
 jobs:
