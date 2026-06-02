@@ -2,8 +2,7 @@ name: Update EDL
 
 on:
   schedule:
-    - cron: "0 * * * *"
-    - cron: "30 * * * *"
+    - cron: "39 * * * *"
   workflow_dispatch:
 
 jobs:
