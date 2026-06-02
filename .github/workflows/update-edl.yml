@@ -1,3 +1,27 @@
+name: Your Existing Workflow
+
+on:
+  # Keeps your existing triggers active
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  
+  # Adds the hourly automation trigger
+  schedule:
+    - cron: '0 * * * *'
+    
+  # Allows you to trigger it manually via the GitHub UI
+  workflow_dispatch:
+
+jobs:
+  # Leave all your existing jobs and steps exactly as they are
+  your-existing-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Your steps
+        run: echo "Your existing steps run here"
+
 name: Update EDL
 
 on:
