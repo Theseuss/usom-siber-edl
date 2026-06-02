@@ -1,4 +1,4 @@
-# siberguvenlik.gov.tr EDL | Güncellendi: 2026-06-02 08:58 UTC
+# siberguvenlik.gov.tr EDL | Güncellendi: 2026-06-02 10:57 UTC
 89.37.185.60
 188.124.59.120
 74.112.102.120
