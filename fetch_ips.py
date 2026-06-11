@@ -1,7 +1,7 @@
 import requests, os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-API_BASE  = "https://siberguvenlik.gov.tr/api/address/index"
+API_BASE  = "https://siberguvenlik.gov.tr/api/address/index?type=ip"
 OUT_FILE  = "docs/edl.txt"
 WORKERS   = 20
 
